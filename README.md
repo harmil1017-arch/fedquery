@@ -65,3 +65,7 @@ Open `results.csv`. For each of the 30 runs, mark `answer_correct` and `declined
 - Deployed publicly with Streamlit.
 
 **Tech:** Python, ChromaDB, sentence-transformers, Streamlit, OpenAI API
+
+## Live demo
+
+[Open FedQuery](https://fedquery-harmil.streamlit.app/)
