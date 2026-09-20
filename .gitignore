@@ -6,3 +6,5 @@ __pycache__/
 chroma_db/
 results.csv
 
+
+.DS_Store
