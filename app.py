@@ -97,7 +97,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown(
-        '<div class="metric-card"><h3>6</h3><p>FOMC statements</p></div>',
+        '<div class="metric-card"><h3>22</h3><p>FOMC statements</p></div>',
         unsafe_allow_html=True,
     )
 

@@ -5,6 +5,27 @@ import requests
 from bs4 import BeautifulSoup
 
 STATEMENTS = {
+    # 2024
+    "2024-01-31": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm",
+    "2024-03-20": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm",
+    "2024-05-01": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm",
+    "2024-06-12": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+    "2024-07-31": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+    "2024-09-18": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "2024-11-07": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+    "2024-12-18": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+
+    # 2025
+    "2025-01-29": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm",
+    "2025-03-19": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm",
+    "2025-05-07": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm",
+    "2025-06-18": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm",
+    "2025-07-30": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm",
+    "2025-09-17": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm",
+    "2025-10-29": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+    "2025-12-10": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+
+    # 2026 (available so far)
     "2026-01-28": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
     "2026-03-18": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
     "2026-04-29": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
