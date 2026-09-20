@@ -1,0 +1,18 @@
+[
+  {"id":"q01","question":"What target range did the Committee maintain on January 28, 2026?","answerable":true,"expected_answer":"3-1/2 to 3-3/4 percent","source_id":"2026-01-28-p3"},
+  {"id":"q02","question":"What inflation objective did the January statement name?","answerable":true,"expected_answer":"2 percent","source_id":"2026-01-28-p2"},
+  {"id":"q03","question":"Who preferred a quarter-point rate cut in January?","answerable":true,"expected_answer":"Stephen I. Miran and Christopher J. Waller","source_id":"2026-01-28-p6"},
+  {"id":"q04","question":"What development did the March statement say had uncertain implications for the U.S. economy?","answerable":true,"expected_answer":"developments in the Middle East","source_id":"2026-03-18-p2"},
+  {"id":"q05","question":"What did the April statement say was partly reflecting higher global energy prices?","answerable":true,"expected_answer":"elevated inflation","source_id":"2026-04-29-p1"},
+  {"id":"q06","question":"Who did not support including an easing bias in April?","answerable":true,"expected_answer":"Beth M. Hammack, Neel Kashkari, and Lorie K. Logan","source_id":"2026-04-29-p6"},
+  {"id":"q07","question":"What banking-system policy did the June statement reaffirm?","answerable":true,"expected_answer":"maintaining ample reserves","source_id":"2026-06-17-p2"},
+  {"id":"q08","question":"What two factors did June describe as strong?","answerable":true,"expected_answer":"productivity growth and capital investment","source_id":"2026-06-17-p3"},
+  {"id":"q09","question":"What source shocks did June link to price increases in energy?","answerable":true,"expected_answer":"supply shocks","source_id":"2026-06-17-p4"},
+  {"id":"q10","question":"What was the July vote count for releasing the statement?","answerable":true,"expected_answer":"9–3","source_id":"2026-07-29-p1"},
+  {"id":"q11","question":"What did the July dissenters prefer to do to the target range?","answerable":true,"expected_answer":"raise it by 1/4 percentage point","source_id":"2026-07-29-p5"},
+  {"id":"q12","question":"What target range did the Committee set on September 16, 2026?","answerable":true,"expected_answer":"3-3/4 to 4 percent","source_id":"2026-09-16-p2"},
+  {"id":"q13","question":"Who is the current Chair of the Federal Reserve?","answerable":false,"expected_answer":"Not found in the documents","source_id":null},
+  {"id":"q14","question":"What will U.S. GDP growth be next year?","answerable":false,"expected_answer":"Not found in the documents","source_id":null},
+  {"id":"q15","question":"What is the unemployment rate today?","answerable":false,"expected_answer":"Not found in the documents","source_id":null}
+]
+
