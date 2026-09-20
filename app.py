@@ -89,7 +89,7 @@ st.markdown("""
 <div class="hero">
     <div class="badge">FOMC RESEARCH ASSISTANT</div>
     <h1>FedQuery</h1>
-    <p>Ask questions about Federal Reserve statements. Answers are grounded only in retrieved FOMC passages and include citations.</p>
+    <p>Search all available FOMC statements from January 2024 onward. Every answer is grounded only in retrieved passages and includes citations.</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -97,7 +97,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown(
-        '<div class="metric-card"><h3>22</h3><p>FOMC statements</p></div>',
+        '<div class="metric-card"><h3>22</h3><p>FOMC statements from 2024 onwards</p></div>',
         unsafe_allow_html=True,
     )
 
@@ -191,7 +191,7 @@ if submitted and user_question.strip():
 with st.sidebar:
     st.header("About FedQuery")
     st.write(
-        "A retrieval-augmented Q&A app built over six Federal Open Market Committee statements."
+        "A retrieval-augmented Q&A app built over 22 Federal Open Market Committee statements from 2024 onwards."
     )
 
     st.divider()
