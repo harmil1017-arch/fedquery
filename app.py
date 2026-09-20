@@ -166,7 +166,7 @@ if submitted and user_question.strip():
 
                     if isinstance(passage, dict):
                         metadata = passage.get("metadata", {})
-                        date = metadata.get("date")
+                        date = metadata.get("meeting_date")
                         paragraph = metadata.get("paragraph")
 
                         if date and paragraph:

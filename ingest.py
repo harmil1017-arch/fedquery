@@ -13,7 +13,7 @@ def statement_paragraphs(path: Path):
     date = path.stem
     text = path.read_text(encoding="utf-8")
     # The first two lines are provenance, not content for retrieval.
-    body = text.split("\n\n", 1)[1]
+    body = text.split("\n\n", 1)[1] if "\n\n" in text else text
     return date, [re.sub(r"\s+", " ", p).strip() for p in body.split("\n\n") if p.strip()]
 
 client = chromadb.PersistentClient(path=DB_DIR)

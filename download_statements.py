@@ -49,7 +49,7 @@ for date, url in STATEMENTS.items():
     # Keep statement content only; drop media/footer boilerplate.
     paragraphs = [p for p in paragraphs if p and "For media inquiries" not in p and "Last Update" not in p]
     (OUT / f"{date}.txt").write_text(
-        f"Source: {url}\\nMeeting date: {date}\\n\\n" + "\\n\\n".join(paragraphs) + "\\n",
+        f"Source: {url}\nMeeting date: {date}\n\n" + "\n\n".join(paragraphs) + "\n",
         encoding="utf-8",
     )
     print(f"Saved {date}.txt ({len(paragraphs)} paragraphs)")
